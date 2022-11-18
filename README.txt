@@ -1,4 +1,5 @@
 My personal portfolio website (developed for my LMC 2700 class 😊).
+While my portfolio is still under development, the live site can be found @ hmillersarah.github.io
 
 Credits:
 
