@@ -2062,6 +2062,7 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		/* height: 450px; */
 	}
 
 	/* .box:hover {
@@ -2078,6 +2079,10 @@ input, select, textarea {
 
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
+		}
+
+		.box.style2 p {
+			margin-bottom: 0em;
 		}
 
 		.box.style2 .image {
