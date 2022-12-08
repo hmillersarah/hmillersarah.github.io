@@ -247,11 +247,13 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		/* color: #43B3E0; */
+		color: #252525;
 		text-decoration: underline;
 	}
 
 		a:hover {
+			/* color: #43bff0 !important; */
 			color: #43bff0 !important;
 		}
 
@@ -1827,7 +1829,8 @@ input, select, textarea {
 		/* text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5); */
 		overflow: hidden;
 		/* box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75); */
-		background-color: #3b82f6;
+		/* background-color: #3b82f6; */
+		background-color: rgb(33, 33, 33);
 		padding: 1em 1.5em 1em 1.5em;
 		/* padding: 1em 2.35em 1em 2.35em; */
 		font-size: 1.1em;
@@ -1839,7 +1842,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #0b63f3;
+			/* background-color: #0b63f3; */
+			background-color: rgb(19, 19, 19);
 			color: #fff !important;
 		}
 
@@ -1848,7 +1852,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #0b63f3;
+			background-color: rgb(25, 25, 25);
 			top: 1px;
 		}
 
@@ -2672,10 +2676,10 @@ input, select, textarea {
 
 			.tiles article > .image:before {
 				pointer-events: none;
-				-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
+				/* -moz-transition: background-color 0.5s ease, opacity 0.5s ease;
 				-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
 				-ms-transition: background-color 0.5s ease, opacity 0.5s ease;
-				transition: background-color 0.5s ease, opacity 0.5s ease;
+				transition: background-color 0.5s ease, opacity 0.5s ease; */
 				content: '';
 				display: block;
 				position: absolute;
@@ -2690,10 +2694,10 @@ input, select, textarea {
 
 			.tiles article > .image:after {
 				pointer-events: none;
-				-moz-transition: opacity 0.5s ease;
+				/* -moz-transition: opacity 0.5s ease;
 				-webkit-transition: opacity 0.5s ease;
 				-ms-transition: opacity 0.5s ease;
-				transition: opacity 0.5s ease;
+				transition: opacity 0.5s ease; */
 				content: '';
 				display: block;
 				position: absolute;
@@ -2725,10 +2729,10 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			-moz-transition: background-color 0.5s ease, -moz-transform 0.5s ease;
+			/* -moz-transition: background-color 0.5s ease, -moz-transform 0.5s ease;
 			-webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
 			-ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
-			transition: background-color 0.5s ease, transform 0.5s ease;
+			transition: background-color 0.5s ease, transform 0.5s ease; */
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -2765,10 +2769,10 @@ input, select, textarea {
 			}
 
 			.tiles article > a .content {
-				-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
+				/* -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
 				-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
 				-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
-				transition: max-height 0.5s ease, opacity 0.5s ease;
+				transition: max-height 0.5s ease, opacity 0.5s ease; */
 				width: 100%;
 				max-height: 0;
 				line-height: 1.5;
@@ -2780,32 +2784,6 @@ input, select, textarea {
 				.tiles article > a .content > :last-child {
 					margin-bottom: 0;
 				}
-
-		.tiles article.style1 > .image:before {
-			/* background-color: #f2849e; */
-			background-image: "images/stock_wearable.jpg";
-		}
-
-		.tiles article.style2 > .image:before {
-			/* background-color: #7ecaf6; */
-			background-image: "images/pic01.jpg";
-		}
-
-		.tiles article.style3 > .image:before {
-			background-color: #7bd0c1;
-		}
-
-		.tiles article.style4 > .image:before {
-			background-color: #c75b9b;
-		}
-
-		.tiles article.style5 > .image:before {
-			background-color: #ae85ca;
-		}
-
-		.tiles article.style6 > .image:before {
-			background-color: #8499e7;
-		}
 
 		body:not(.is-touch) .tiles article:hover > .image {
 			-moz-transform: scale(1.1);
